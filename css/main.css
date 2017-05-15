@@ -1,1 +1,65 @@
-/* Agrega aquí tus estilos*/
+* {
+margin : 30;
+padding : 60;
+}
+html {
+font-size : 60;
+}
+body {
+font-family : Helvetica, Arial, sans-serif;
+color :#196F3D; /*verde*/
+text-align: right;
+background : ;
+  
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  color: #454545;
+  margin : 4;
+  text-align: center; /*título en la tipografía más grande y en gris oscuro*/
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  margin : 50;
+  text-align: center; /*texto más pequeño en color y tipo default*/
+}
+h3, h4, h5, h6 {
+  font-family: 'Dosis', sans-serif;
+  color: #454545;
+  font-size: 30px;
+  font-weight: 500;
+  margin : 40;
+}
+.preamble,.explanation,.participation,
+.benefits,.requirements,.sidebar {
+    padding: 15px;
+    margin: 60px;
+    background:#ced6ef;
+}
+#design-selection li{
+	font-size: 12px;
+	color: #4d77fe;
+	text-align: left;
+	line-height: 30%;
+  margin: 20px;     
+}
+
+#design-archives, li {
+ 	font-size: 12px;
+  color: #4d77fe;	
+	text-align: left;
+	line-height: 75%;
+  margin-top: 10px;
+  
+}
+
+#resourses li {
+  font-size: 12px;
+  color: #4d77fe;	
+	text-align: left;
+	margin-top: 10px;
+  }
