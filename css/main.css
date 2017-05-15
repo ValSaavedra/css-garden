@@ -12,6 +12,7 @@ font-family : Helvetica, Arial, sans-serif;
 color :#196F3D; /*verde*/
 text-align: right;
 background-image: url(https://s-media-cache-ak0.pinimg.com/736x/66/a4/cc/66a4ccd188a5e3518845666d23a060f0.jpg);
+background-size: 100%;
 }
 
 h1 {
@@ -23,8 +24,10 @@ h1 {
   background-image:url(images/form_bg.jpg);
 	background-color: #FFFFFF;
   border:16px solid #d1c7ac;
-	width: 230px;
-	color:#333333;
+	transform: translate(120%, 0%);
+  width: 230px;
+  
+ 	color:#333333;
 	padding:20px;
 	margin-right:4px;
 	margin-bottom:8px;
